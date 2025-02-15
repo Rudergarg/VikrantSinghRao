@@ -63,7 +63,7 @@ export default function Crousal2() {
                   <a
                     className="nav-link active"
                     aria-current="page"
-                    href="/research.html"
+                    href="/Research.html"
                   >
                     Research
                   </a>
