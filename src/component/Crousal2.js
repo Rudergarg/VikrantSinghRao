@@ -25,18 +25,8 @@ export default function Crousal2() {
             <a
               href="/"
               className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none z-negative"
-            >
-              {/* <img
-                src="/LOGO SITE.png"
-                width="50"
-                height="70"
-                className="me-2 "
-              ></img> */}
-            </a>
+            ></a>
             <div></div>
-            {/* <a className="navbar-brand m ms-auto" href="#">
-              Vikrant Singh Rao
-            </a> */}
             <button
               className="navbar-toggler"
               type="button"
@@ -90,6 +80,15 @@ export default function Crousal2() {
                   <a
                     className="nav-link active"
                     aria-current="page"
+                    href="/Gallery.html"
+                  >
+                    Gallery
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link active"
+                    aria-current="page"
                     href="/userinfo.html"
                   >
                     User Info
@@ -106,64 +105,49 @@ export default function Crousal2() {
         {/* <br></br> */}
         <hr className="featurette-divider" />
         <div className="container my-5">
-  <div className="row featurette align-items-center">
-    
+  <div className="row featurette align-items-stretch">
     {/* Text Section - Left Side */}
-    <div className="col-md-7">
-      <div className="p-4 bg-white rounded-4 shadow-lg border border-light h-100 d-flex flex-column justify-content-center">
-        <h2 className="featurette-heading fw-bold text-center text-dark">
-          <i>"A Closer Look"</i>
-        </h2>
-
-        <p className="lead text-dark mb-3">
-        Currently a Guest Assistant Professor at Swami
-                      Shraddhanand College, University of Delhi, teaching
-                      Environmental Studies in line with the new education
-                      policy.
-        </p>
-
-        <p className="lead text-dark mb-3">
-        I have completed my doctoral studies from the Centre of
-                      Excellence for Energy and Environmental Studies,
-                      Deenbandhu Chhotu Ram University of Science and Technology
-                      (DCRUST), Murthal, under the guidance of Dr. S. P. Nehra
-                      (Max Planck Alumni Ambassador for India (North), Indian
-                      National Young Academy of Sciences).
-        </p>
-
-        <p className="lead text-dark mb-3">
-        My research focuses on Graphitic Carbon Nitride
-                      Nanocomposites for energy and environmental applications,
-                      with work on water purification and supercapacitors.
-        </p>
-
-        <p className="lead text-dark mb-3">
-        M.Sc. from Central University of Haryana; worked at
-                      CSIR-NPL on the role of indoor plants in controlling VOCs
-                      and particulate matter under Dr. Sumit Kumar Mishra.
-        </p>
-
-        <p className="lead text-dark mb-0">
-        B.Sc. in Life Science from Sri Venkateswara College,
-        University of Delhi.
+    <div className="col-md-7 d-flex">
+      <div className="p-4 bg-white rounded-4 shadow-lg border border-light w-100 d-flex flex-column justify-content-center">
+        {/* Header Section with Logo */}
+        <div className="d-flex align-items-center gap-3 mb-3">
+          <img
+            src="LOGO SITE.png"
+            alt="Research Logo"
+            className="img-fluid"
+            style={{ maxWidth: "140px" }}
+          />
+          <h2 className="featurette-heading fw-bold text-dark text-center m-0 ms-4">
+            <i>Dr. Vikrant Singh</i>
+            
+          </h2>
+        </div>
+        <p className="lead text-dark mb-3 text-content-justify text-center">
+          Currently working as a Guest Assistant Professor at Swami Shraddhanand College, University of Delhi, teaching Environmental Studies in line with the new education policy.I completed my doctoral studies at the Centre of Excellence for Energy and Environmental Studies, Deenbandhu Chhotu Ram University of Science and Technology (DCRUST), Murthal, under the guidance of Dr. S. P. Nehra (Max Planck Alumni Ambassador for India (North), Indian National Young Academy of Sciences). My research focuses on Graphitic Carbon Nitride-based Binary/Ternary Nanocomposites for Energy and Environmental Applications.With a strong foundation in nanotechnology, I specialize in synthesizing and characterizing nanocomposites for tackling critical environmental issues. Over the past four years, I have worked extensively on water purification and energy storage solutions, particularly supercapacitors. This dual focus allows me to contribute significantly to the fields of environmental remediation and renewable energy storage.I earned my M.Sc. degree from Central University of Haryana, where I conducted a project at CSIR-National Physical Laboratory on the role of different indoor plants in controlling VOCs and particulate matter under the guidance of Principal Scientist Dr. Sumit Kumar Mishra. I obtained my B.Sc. in Life Science from Sri Venkateswara College, University of Delhi, India.
         </p>
       </div>
     </div>
 
-    {/* Image Section - Right Side */}
-    <div className="col-md-5 d-flex justify-content-center">
-      <div className="d-flex align-items-center w-100">
+    {/* Image & CV Section - Right Side */}
+    <div className="col-md-5 d-flex">
+      <div className="d-flex flex-column justify-content-between w-100 bg-white rounded-4 shadow-lg border border-light p-3">
         <img
-          src="download3.jpg"
-          className="img-fluid rounded-4 shadow-lg w-100 h-100 object-fit-cover"
+          src="download6.jpg"
+          className="img-fluid rounded-4 shadow-lg w-100"
           alt="Featurette Image"
+          style={{ maxHeight: "100%", objectFit: "cover", flexGrow: 1 }}
         />
+
+        {/* Full CV Download Button */}
+        <a href="vs.pdf" download className="btn btn-primary shadow-lg w-100 py-2 mt-3">
+          Download Full CV
+        </a>
       </div>
     </div>
-
   </div>
 </div>
-<hr className="featurette-divider" />
+
+        <hr className="featurette-divider" />
 
         <div className="container marketing mt-5 mb-4">
           <div className="row text-center">
@@ -232,67 +216,67 @@ export default function Crousal2() {
           </div>
           <hr className="featurette-divider" />
           <div
-          className="container-fluid py-5 text-white"
-          style={{ backgroundColor: "#009688" }}
-        >
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-md-6">
-                {/* Logo and Heading Side by Side */}
-                <div className="d-flex align-items-center gap-3">
-                  <img
-                    src="LOGO SITE.png"
-                    alt="Research Logo"
-                    className="img-fluid"
-                    style={{ maxWidth: "140px" }}
-                  />
-                  <h2 className="fw-bold text-uppercase border-bottom border-3 pb-2 text-light display-5">
-                    Scientific Frontiers
-                  </h2>
+            className="container-fluid py-5 text-white"
+            style={{ backgroundColor: "#009688" }}
+          >
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-md-6">
+                  {/* Logo and Heading Side by Side */}
+                  <div className="d-flex align-items-center gap-3">
+                    <img
+                      src="LOGO SITE.png"
+                      alt="Research Logo"
+                      className="img-fluid"
+                      style={{ maxWidth: "140px" }}
+                    />
+                    <h2 className="fw-bold text-uppercase border-bottom border-3 pb-2 text-light display-5">
+                      Scientific Frontiers
+                    </h2>
+                  </div>
+
+                  <p className="mt-3 lead text-justify text-light fw-light fst-italic text-center">
+                    At the forefront of sustainable technology, our research
+                    explores the potential of energy storage materials and
+                    devices, aiming to enhance energy efficiency and storage
+                    capabilities. By harnessing the power of advanced
+                    nanomaterials, we contribute to transformative solutions for
+                    environmental challenges. Specifically, our work in water
+                    splitting, wastewater treatment, and photocatalytic activity
+                    strives to revolutionize the way we address global water and
+                    energy needs.
+                  </p>
                 </div>
 
-                <p className="mt-3 lead text-justify text-light fw-light fst-italic">
-                  At the forefront of sustainable technology, our research
-                  explores the potential of energy storage materials and
-                  devices, aiming to enhance energy efficiency and storage
-                  capabilities. By harnessing the power of advanced
-                  nanomaterials, we contribute to transformative solutions for
-                  environmental challenges. Specifically, our work in water
-                  splitting, wastewater treatment, and photocatalytic activity
-                  strives to revolutionize the way we address global water and
-                  energy needs.
-                </p>
-              </div>
-
-              <div className="col-md-6">
-                <div className="row g-4">
-                  {[
-                    { number: "10+", label: "Total Publications" },
-                    { number: "180+", label: "Total Citations" },
-                    { number: "04", label: "PG Student Guidance" },
-                    { number: "10+", label: "Journals" },
-                    { number: "07+", label: "Paper Publications" },
-                    { number: "01", label: "Book Chapter" },
-                  ].map((item, index) => (
-                    <div className="col-6" key={index}>
-                      <div
-                        className="card text-center shadow-lg border-0"
-                        style={{ backgroundColor: "#F8F9FA" }}
-                      >
-                        <div className="card-body py-4">
-                          <h3 className="fw-bold text-primary">
-                            {item.number}
-                          </h3>
-                          <p className="text-muted mb-0">{item.label}</p>
+                <div className="col-md-6">
+                  <div className="row g-4">
+                    {[
+                      { number: "10+", label: "Total Publications" },
+                      { number: "180+", label: "Total Citations" },
+                      { number: "04", label: "PG Student Guidance" },
+                      { number: "10+", label: "Journals" },
+                      { number: "07+", label: "Paper Publications" },
+                      { number: "01", label: "Book Chapter" },
+                    ].map((item, index) => (
+                      <div className="col-6" key={index}>
+                        <div
+                          className="card text-center shadow-lg border-0"
+                          style={{ backgroundColor: "#F8F9FA" }}
+                        >
+                          <div className="card-body py-4">
+                            <h3 className="fw-bold text-primary">
+                              {item.number}
+                            </h3>
+                            <p className="text-muted mb-0">{item.label}</p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
           <hr className="featurette-divider" />
         </div>

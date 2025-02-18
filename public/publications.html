@@ -4,79 +4,194 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications & Research Contributions</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body style="font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; color: #333;">
 
-    <div style="width: 85%; max-width: 1000px; margin: 20px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #2b2b2c !important;
+            padding: 10px 0;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+       
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            background: white;
+            padding: 30px;
+            margin-top: 80px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Headers */
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        /* Publication Entries */
+        .publication-entry {
+            margin-top: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff;
+            background: #f8f9fa;
+        }
+
+        /* DOI Links */
+        .doi-link {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .doi-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid px-4">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="/home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/awards.html">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/userinfo.html">User Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
         
-        <header style="text-align: center; padding: 10px 0; border-bottom: 2px solid #007bff;">
-            <h1 style="color: #007bff; font-size: 28px; margin-bottom: 10px;">Publications & Research Contributions</h1>
+        <header class="text-center">
+            <h1 class="text-primary">Publications & Research Contributions</h1>
         </header>
 
         <!-- Publications Section -->
-        <section style="margin-top: 20px;">
-            <h2 style="color: #0056b3; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Publications</h2>
-            
-            <div style="margin-top: 10px;">
-                <ol>
-                    <li><strong>Ankit Rao, Anubha Kaushik, Vikrant Singh Rao, Satya Pal Nehra.</strong> Facile and binder-free nano architecturing of anode with biocompatible g-C3N4-PPy for bacterial community enrichment and green energy generation in microbial fuel cells. <em>Applied Energy</em>, 376 (2024) 124250. [I.F.: 10.10; ISSN: 0306-2619] <a href="https://doi.org/10.1016/j.apenergy.2024.124250" style="color: #007bff;">DOI</a></li>
-                    <li><strong>Vikrant Singh Rao, Anshu Sharma, SP Nehra.</strong> Photocatalytic Activity of Selenium Decorated Graphitic Carbon Nitride Nanocomposites for Dye Industries Wastewater Remediation. <em>Groundwater for Sustainable Development</em>, 27 (2024) 101317. [I.F.: 4.90; ISSN: 2352-801X] <a href="https://doi.org/10.1016/j.gsd.2024.101317" style="color: #007bff;">DOI</a></li>
-                    <li><strong>Sweety Dahiya, Sachin Shoran, D. N. Sharma, V. S. Rao, Sudesh Chaudhary, S. P. Nehra, Anshu Sharma.</strong> Bioengineered Sustainable Phytofabrication of Anatase TiO2 - Adorned g-C3N4 Nanocomposites and Unveiling their Photocatalytic Potential towards Advanced Environmental Remediation. <em>Chemosphere</em>, 362 (2024) 142456. [I.F.: 8.1; ISSN: 0045-6535] <a href="https://doi.org/10.1016/j.chemosphere.2024.142456" style="color: #007bff;">DOI</a></li>
-                    <li>
-                      <strong>Rajat Arora, Monika Dhanda, Meena Yadav, Vikrant Singh Rao, Priti Pahuja, Simran Ahlawat, Satya Pal Nehra, Suman Lata.</strong> 
-                      Nanoscale energy: unveiling the super‑capacitive prowess of graphitic carbon nitride–carbon dots–yttria as GCY nanocomposites for sustainable energy electrode. 
-                      <em>Journal of Solid State Electrochemistry</em>. XX (2024) XXXX. [I.F.: 2.6; ISSN: 1433-0768] 
-                      <a href="https://doi.org/10.1007/s10008-024-06117-9" style="color: #007bff;">DOI</a>
-                  </li>
-                  <li>
-                      <strong>V. S. Rao, A. Sharma, S. P. Nehra.</strong> 
-                      Tungsten oxide embellished graphitic carbon nitride for dye industrial wastewater remediation using visible light. 
-                      <em>International Journal of Environmental Science and Technology</em>. 2024 Oct 29:1-6. [I.F.: 3.1; ISSN: 1735-1472] 
-                      <a href="https://doi.org/10.1007/s13762-024-06127-0" style="color: #007bff;">DOI</a>
-                  </li>
-                  <li>
-                      <strong>Vikrant Singh Rao, Rishabh Sharma, Devina Rattan Paul, Miroslav Almáši, Anshu Sharma, Suresh Kumar, Satya Pal Nehra.</strong> 
-                      Architecting of the Z‑scheme heterojunction Gd2O3/g‑C3N4 nanocomposites for enhanced visible‑light‑induced photoactivity towards organic pollutant degradation. 
-                      <em>Environmental Science and Pollution Research</em>. 30 (2023) 98773–98786. [I.F.: 5.8; ISSN: 0944-1344] 
-                      <a href="https://doi.org/10.1007/s11356-023-25360-7" style="color: #007bff;">DOI</a>
-                  </li>
-                  <li>
-                      <strong>Rajat Arora, Monika Dhanda, Meena Yadav, Rinki Malik, Priti Pahuja, Simran Ahlawat, Vikrant Singh Rao, S. P. Nehra, Suman Lata.</strong> 
-                      Bi-functionality of Coral reef-like nano-range composites fabricated as g-C3N4/ppy/PSS for efficacious electrochemical super-capacitive energy accumulation and dye depletion. 
-                      <em>Solid State Ionics</em>. 403 (2023) 166402. [I.F.: 3.0; ISSN: 0167-2738] 
-                      <a href="https://doi.org/10.1016/j.ssi.2023.116402" style="color: #007bff;">DOI</a>
-                  </li>
-                  <li>
-                      <strong>Devina Rattan Paul, Rishabh Sharma, Priyanka Panchal, Vikrant Singh Rao, Shubham Gautam, Anshu Sharma, Satya Pal Nehra.</strong> 
-                      Mg/Li@GCN as highly active visible light responding 2D photocatalyst for wastewater remediation application. 
-                      <em>Environmental Science and Pollution Research</em>. 30(44) (2022) 98540-98547. [I.F.: 5.8; ISSN: 0944-1344] 
-                      <a href="https://doi.org/10.1007/s11356-022-21203-z" style="color: #007bff;">DOI</a>
-                  </li>
-                  <li>
-                    <strong>Rishabh Sharma, Miroslav Almáši, S. P. Nehra*, V. S. Rao, Priyanka Panchal, Devina Rattan 
-                      Paul, I. P. Jain, Anshu Sharma.</strong> 
-                      Photocatalytic Hydrogen Production using Graphitic Carbon
-                      Nitride (GCN): 
-                    <em>A Precise Review. Renewable and Sustainable Energy Reviews.</em>.  168 (2022)
-                    112776. Pages: 1-15. [I.F.: 16.3; ISSN: 1364-0321]
-                    <a href="https://doi.org/10.1016/j.rser.2022.112776" style="color: #007bff;">DOI</a>
+        <section>
+            <h2>Publications</h2>
+
+            <ol>
+                <li class="publication-entry">
+                    <strong>Ankit Rao, Anubha Kaushik, Vikrant Singh Rao, Satya Pal Nehra.</strong> 
+                    Facile and binder-free nano architecturing of anode with biocompatible g-C3N4-PPy for bacterial community enrichment and green energy generation in microbial fuel cells. 
+                    <em>Applied Energy</em>, 376 (2024) 124250. [I.F.: 10.10] 
+                    <a href="https://doi.org/10.1016/j.apenergy.2024.124250" class="doi-link">DOI</a>
                 </li>
 
-            </div>
+                <li class="publication-entry">
+                    <strong>Vikrant Singh Rao, Anshu Sharma, SP Nehra.</strong> 
+                    Photocatalytic Activity of Selenium Decorated Graphitic Carbon Nitride Nanocomposites for Dye Industries Wastewater Remediation. 
+                    <em>Groundwater for Sustainable Development</em>, 27 (2024) 101317. [I.F.: 4.90] 
+                    <a href="https://doi.org/10.1016/j.gsd.2024.101317" class="doi-link">DOI</a>
+                </li>
+
+                <li class="publication-entry">
+                    <strong>Sweety Dahiya, Sachin Shoran, D. N. Sharma, V. S. Rao, et al.</strong> 
+                    Bioengineered Sustainable Phytofabrication of Anatase TiO2 - Adorned g-C3N4 Nanocomposites and Unveiling their Photocatalytic Potential towards Advanced Environmental Remediation. 
+                    <em>Chemosphere</em>, 362 (2024) 142456. [I.F.: 8.1] 
+                    <a href="https://doi.org/10.1016/j.chemosphere.2024.142456" class="doi-link">DOI</a>
+                </li>
+                <li class="publication-entry">
+                    <strong>Rajat Arora, Monika Dhanda, Meena Yadav, Vikrant Singh Rao, Priti Pahuja, Simran Ahlawat, Satya Pal Nehra, Suman Lata.</strong> 
+                    Nanoscale energy: unveiling the super‑capacitive prowess of graphitic carbon nitride–carbon dots–yttria as GCY nanocomposites for sustainable energy electrode. 
+                    <em>Journal of Solid State Electrochemistry</em>. XX (2024) XXXX. [I.F.: 2.6; ISSN: 1433-0768] 
+                    <a href="https://doi.org/10.1007/s10008-024-06117-9" style="color: #007bff;">DOI</a>
+                </li>
+                <li class="publication-entry">
+                    <strong>V. S. Rao, A. Sharma, S. P. Nehra.</strong> 
+                    Tungsten oxide embellished graphitic carbon nitride for dye industrial wastewater remediation using visible light. 
+                    <em>International Journal of Environmental Science and Technology</em>. 2024 Oct 29:1-6. [I.F.: 3.1; ISSN: 1735-1472] 
+                    <a href="https://doi.org/10.1007/s13762-024-06127-0" style="color: #007bff;">DOI</a>
+                </li>
+                <li class="publication-entry">
+                    <strong>Vikrant Singh Rao, Rishabh Sharma, Devina Rattan Paul, Miroslav Almáši, Anshu Sharma, Suresh Kumar, Satya Pal Nehra.</strong> 
+                    Architecting of the Z‑scheme heterojunction Gd2O3/g‑C3N4 nanocomposites for enhanced visible‑light‑induced photoactivity towards organic pollutant degradation. 
+                    <em>Environmental Science and Pollution Research</em>. 30 (2023) 98773–98786. [I.F.: 5.8; ISSN: 0944-1344] 
+                    <a href="https://doi.org/10.1007/s11356-023-25360-7" style="color: #007bff;">DOI</a>
+                </li>
+                <li class="publication-entry">
+                    <strong>Rajat Arora, Monika Dhanda, Meena Yadav, Rinki Malik, Priti Pahuja, Simran Ahlawat, Vikrant Singh Rao, S. P. Nehra, Suman Lata.</strong> 
+                    Bi-functionality of Coral reef-like nano-range composites fabricated as g-C3N4/ppy/PSS for efficacious electrochemical super-capacitive energy accumulation and dye depletion. 
+                    <em>Solid State Ionics</em>. 403 (2023) 166402. [I.F.: 3.0; ISSN: 0167-2738] 
+                    <a href="https://doi.org/10.1016/j.ssi.2023.116402" style="color: #007bff;">DOI</a>
+                </li>
+                <li class="publication-entry">
+                    <strong>Devina Rattan Paul, Rishabh Sharma, Priyanka Panchal, Vikrant Singh Rao, Shubham Gautam, Anshu Sharma, Satya Pal Nehra.</strong> 
+                    Mg/Li@GCN as highly active visible light responding 2D photocatalyst for wastewater remediation application. 
+                    <em>Environmental Science and Pollution Research</em>. 30(44) (2022) 98540-98547. [I.F.: 5.8; ISSN: 0944-1344] 
+                    <a href="https://doi.org/10.1007/s11356-022-21203-z" style="color: #007bff;">DOI</a>
+                </li>
+                <li class="publication-entry">
+                  <strong>Rishabh Sharma, Miroslav Almáši, S. P. Nehra*, V. S. Rao, Priyanka Panchal, Devina Rattan 
+                    Paul, I. P. Jain, Anshu Sharma.</strong> 
+                    Photocatalytic Hydrogen Production using Graphitic Carbon
+                    Nitride (GCN): 
+                  <em>A Precise Review. Renewable and Sustainable Energy Reviews.</em>.  168 (2022)
+                  112776. Pages: 1-15. [I.F.: 16.3; ISSN: 1364-0321]
+                  <a href="https://doi.org/10.1016/j.rser.2022.112776" style="color: #007bff;">DOI</a>
+              </li>
+
+                <!-- Add more publication entries as needed -->
+
+            </ol>
         </section>
 
         <!-- Book Chapters Section -->
-        <section style="margin-top: 20px;">
-            <h2 style="color: #0056b3; border-bottom: 2px solid #007bff; padding-bottom: 5px;">Book Chapters</h2>
-            
-            <div style="background: #f8f9fa; padding: 10px; border-radius: 5px; margin: 10px 0; border-left: 5px solid #007bff;">
-                <p style="margin: 5px 0;"><strong>Yamini, Vikrant Singh Rao, Neeraj Mishra, and Sanjay Kumar.</strong> "Environmental Applications of Nanosponges (NSPs) to Clean up Oil Spills." In <em>Nanosponges for Environmental Remediation</em>, pp. 425-447. Springer, 2023. <a href="https://doi.org/10.1007/978-3-031-41077-2_19" style="color: #007bff;">DOI</a></p>
+        <section>
+            <h2>Book Chapters</h2>
+
+            <div class="publication-entry">
+                <strong>Yamini, Vikrant Singh Rao, Neeraj Mishra, and Sanjay Kumar.</strong> 
+                "Environmental Applications of Nanosponges (NSPs) to Clean up Oil Spills." 
+                In <em>Nanosponges for Environmental Remediation</em>, pp. 425-447. Springer, 2023. 
+                <a href="https://doi.org/10.1007/978-3-031-41077-2_19" class="doi-link">DOI</a>
             </div>
         </section>
 
-
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
