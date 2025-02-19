@@ -251,11 +251,11 @@ export default function Crousal2() {
                 <div className="col-md-6">
                   <div className="row g-4">
                     {[
-                      { number: "10+", label: "Total Publications" },
+                      { number: "15+", label: "Total Publications" },
                       { number: "202+", label: "Total Citations" },
                       { number: "04", label: "PG Student Guidance" },
                       { number: "10+", label: "Journals" },
-                      { number: "07+", label: "Paper Publications" },
+                      { number: "10+", label: "Paper Publications" },
                       { number: "04+", label: "Book Chapter" },
                     ].map((item, index) => (
                       <div className="col-6" key={index}>
