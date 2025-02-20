@@ -105,47 +105,73 @@ export default function Crousal2() {
         {/* <br></br> */}
         <hr className="featurette-divider" />
         <div className="container my-5">
-  <div className="row featurette align-items-stretch">
-    {/* Text Section - Left Side */}
-    <div className="col-md-7 d-flex">
-      <div className="p-4 bg-white rounded-4 shadow-lg border border-light w-100 d-flex flex-column justify-content-center">
-        {/* Header Section with Logo */}
-        <div className="d-flex align-items-center gap-3 mb-3">
-          <img
-            src="LOGO SITE.png"
-            alt="Research Logo"
-            className="img-fluid"
-            style={{ maxWidth: "140px" }}
-          />
-          <h2 className="featurette-heading fw-bold text-dark text-center m-0 ms-4">
-            <i>Dr. Vikrant Singh</i>
-            
-          </h2>
+          <div className="row featurette align-items-stretch">
+            {/* Text Section - Left Side */}
+            <div className="col-md-7 d-flex">
+              <div className="p-4 bg-white rounded-4 shadow-lg border border-light w-100 d-flex flex-column justify-content-center">
+                {/* Header Section with Logo */}
+                <div className="d-flex align-items-center gap-3 mb-3">
+                  <img
+                    src="LOGO SITE.png"
+                    alt="Research Logo"
+                    className="img-fluid"
+                    style={{ maxWidth: "140px" }}
+                  />
+                  <h2 className="featurette-heading fw-bold text-dark text-center m-0 ms-4">
+                    <i>Dr. Vikrant Singh</i>
+                  </h2>
+                </div>
+                <p className="lead text-dark mb-3 text-content-justify text-center">
+                  Currently working as a Guest Assistant Professor at Swami
+                  Shraddhanand College, University of Delhi, teaching
+                  Environmental Studies in line with the new education policy.I
+                  completed my doctoral studies at the Centre of Excellence for
+                  Energy and Environmental Studies, Deenbandhu Chhotu Ram
+                  University of Science and Technology (DCRUST), Murthal, under
+                  the guidance of Dr. S. P. Nehra (Max Planck Alumni Ambassador
+                  for India (North), Indian National Young Academy of Sciences).
+                  My research focuses on Graphitic Carbon Nitride-based
+                  Binary/Ternary Nanocomposites for Energy and Environmental
+                  Applications.With a strong foundation in nanotechnology, I
+                  specialize in synthesizing and characterizing nanocomposites
+                  for tackling critical environmental issues. Over the past four
+                  years, I have worked extensively on water purification and
+                  energy storage solutions, particularly supercapacitors. This
+                  dual focus allows me to contribute significantly to the fields
+                  of environmental remediation and renewable energy storage.I
+                  earned my M.Sc. degree from Central University of Haryana,
+                  where I conducted a project at CSIR-National Physical
+                  Laboratory on the role of different indoor plants in
+                  controlling VOCs and particulate matter under the guidance of
+                  Principal Scientist Dr. Sumit Kumar Mishra. I obtained my
+                  B.Sc. in Life Science from Sri Venkateswara College,
+                  University of Delhi, India.
+                </p>
+              </div>
+            </div>
+
+            {/* Image & CV Section - Right Side */}
+            <div className="col-md-5 d-flex">
+              <div className="d-flex flex-column justify-content-between w-100 bg-white rounded-4 shadow-lg border border-light p-3">
+                <img
+                  src="download6.jpg"
+                  className="img-fluid rounded-4 shadow-lg w-100"
+                  alt="Featurette Image"
+                  style={{ maxHeight: "100%", objectFit: "cover", flexGrow: 1 }}
+                />
+
+                {/* Full CV Download Button */}
+                <a
+                  href="vs.pdf"
+                  download
+                  className="btn btn-primary shadow-lg w-100 py-2 mt-3"
+                >
+                  Download Full CV
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <p className="lead text-dark mb-3 text-content-justify text-center">
-          Currently working as a Guest Assistant Professor at Swami Shraddhanand College, University of Delhi, teaching Environmental Studies in line with the new education policy.I completed my doctoral studies at the Centre of Excellence for Energy and Environmental Studies, Deenbandhu Chhotu Ram University of Science and Technology (DCRUST), Murthal, under the guidance of Dr. S. P. Nehra (Max Planck Alumni Ambassador for India (North), Indian National Young Academy of Sciences). My research focuses on Graphitic Carbon Nitride-based Binary/Ternary Nanocomposites for Energy and Environmental Applications.With a strong foundation in nanotechnology, I specialize in synthesizing and characterizing nanocomposites for tackling critical environmental issues. Over the past four years, I have worked extensively on water purification and energy storage solutions, particularly supercapacitors. This dual focus allows me to contribute significantly to the fields of environmental remediation and renewable energy storage.I earned my M.Sc. degree from Central University of Haryana, where I conducted a project at CSIR-National Physical Laboratory on the role of different indoor plants in controlling VOCs and particulate matter under the guidance of Principal Scientist Dr. Sumit Kumar Mishra. I obtained my B.Sc. in Life Science from Sri Venkateswara College, University of Delhi, India.
-        </p>
-      </div>
-    </div>
-
-    {/* Image & CV Section - Right Side */}
-    <div className="col-md-5 d-flex">
-      <div className="d-flex flex-column justify-content-between w-100 bg-white rounded-4 shadow-lg border border-light p-3">
-        <img
-          src="download6.jpg"
-          className="img-fluid rounded-4 shadow-lg w-100"
-          alt="Featurette Image"
-          style={{ maxHeight: "100%", objectFit: "cover", flexGrow: 1 }}
-        />
-
-        {/* Full CV Download Button */}
-        <a href="vs.pdf" download className="btn btn-primary shadow-lg w-100 py-2 mt-3">
-          Download Full CV
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
 
         <hr className="featurette-divider" />
 
@@ -287,7 +313,16 @@ export default function Crousal2() {
             </p>
             <div className="mb-3">
               <b>
-                Powered by <i className="text-warning">COLLABRIX</i>
+                Powered by{" "}
+                <a
+                  href="https://wa.me/+918398000137"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-warning"
+                  style={{ cursor: "pointer", textDecoration: "none" }}
+                >
+                  <i>COLLABRIX</i>
+                </a>
               </b>
             </div>
           </div>
