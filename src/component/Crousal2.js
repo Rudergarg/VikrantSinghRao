@@ -121,32 +121,43 @@ export default function Crousal2() {
                     <i>Dr. Vikrant Singh</i>
                   </h2>
                 </div>
-                <p className="lead text-dark mb-3 text-content-justify text-center">
-                  Currently working as a Guest Assistant Professor at Swami
-                  Shraddhanand College, University of Delhi, teaching
-                  Environmental Studies in line with the new education policy.I
-                  completed my doctoral studies at the Centre of Excellence for
-                  Energy and Environmental Studies, Deenbandhu Chhotu Ram
-                  University of Science and Technology (DCRUST), Murthal, under
-                  the guidance of Dr. S. P. Nehra (Max Planck Alumni Ambassador
-                  for India (North), Indian National Young Academy of Sciences).
-                  My research focuses on Graphitic Carbon Nitride-based
-                  Binary/Ternary Nanocomposites for Energy and Environmental
-                  Applications.With a strong foundation in nanotechnology, I
-                  specialize in synthesizing and characterizing nanocomposites
-                  for tackling critical environmental issues. Over the past four
-                  years, I have worked extensively on water purification and
-                  energy storage solutions, particularly supercapacitors. This
-                  dual focus allows me to contribute significantly to the fields
-                  of environmental remediation and renewable energy storage.I
-                  earned my M.Sc. degree from Central University of Haryana,
-                  where I conducted a project at CSIR-National Physical
-                  Laboratory on the role of different indoor plants in
-                  controlling VOCs and particulate matter under the guidance of
-                  Principal Scientist Dr. Sumit Kumar Mishra. I obtained my
-                  B.Sc. in Life Science from Sri Venkateswara College,
-                  University of Delhi, India.
-                </p>
+                <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+  <p
+    className="lead text-dark mb-3"
+    style={{
+      maxWidth: "700px", // Ensures content is well-contained
+      textAlign: "justify",
+      textJustify: "inter-word",
+      hyphens: "auto",
+      wordSpacing: "2px",
+      margin: "0 auto", // Centers the text block properly
+    }}
+  >
+    Currently working as a Guest Assistant Professor at Swami Shraddhanand
+    College, University of Delhi, teaching Environmental Studies in line with
+    the new education policy. I completed my doctoral studies at the Centre of
+    Excellence for Energy and Environmental Studies, Deenbandhu Chhotu Ram
+    University of Science and Technology (DCRUST), Murthal, under the guidance
+    of Dr. S. P. Nehra (Max Planck Alumni Ambassador for India (North), Indian
+    National Young Academy of Sciences).  
+
+    My research focuses on Graphitic Carbon Nitride-based Binary/Ternary
+    Nanocomposites for Energy and Environmental Applications. With a strong
+    foundation in nanotechnology, I specialize in synthesizing and characterizing
+    nanocomposites for tackling critical environmental issues. Over the past four
+    years, I have worked extensively on water purification and energy storage
+    solutions, particularly supercapacitors. This dual focus allows me to
+    contribute significantly to the fields of environmental remediation and
+    renewable energy storage.  
+
+    I earned my M.Sc. degree from Central University of Haryana, where I
+    conducted a project at CSIR-National Physical Laboratory on the role of
+    different indoor plants in controlling VOCs and particulate matter under the
+    guidance of Principal Scientist Dr. Sumit Kumar Mishra. I obtained my B.Sc.
+    in Life Science from Sri Venkateswara College, University of Delhi, India.
+  </p>
+</div>
+
               </div>
             </div>
 
@@ -261,17 +272,20 @@ export default function Crousal2() {
                     </h2>
                   </div>
 
-                  <p className="mt-3 lead text-justify text-light fw-light fst-italic text-center">
-                    At the forefront of sustainable technology, our research
-                    explores the potential of energy storage materials and
-                    devices, aiming to enhance energy efficiency and storage
-                    capabilities. By harnessing the power of advanced
-                    nanomaterials, we contribute to transformative solutions for
-                    environmental challenges. Specifically, our work in water
-                    splitting, wastewater treatment, and photocatalytic activity
-                    strives to revolutionize the way we address global water and
-                    energy needs.
-                  </p>
+                  <p
+  className="mt-3 lead text-light fw-light "
+  style={{ textAlign: "justify", textJustify: "inter-word" }}
+>
+  At the forefront of sustainable technology, our research explores the
+  potential of energy storage materials and devices, aiming to enhance energy
+  efficiency and storage capabilities. By harnessing the power of advanced
+  nanomaterials, we contribute to transformative solutions for environmental
+  challenges. Specifically, our work in water splitting, wastewater treatment,
+  and photocatalytic activity strives to revolutionize the way we address
+  global water and energy needs.
+</p>
+
+
                 </div>
 
                 <div className="col-md-6">
